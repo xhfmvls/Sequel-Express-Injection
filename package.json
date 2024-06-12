@@ -1,0 +1,19 @@
+{
+    "name": "sql-injection-demo",
+    "version": "1.0.0",
+    "description": "A Node.js application showcasing SQL injection vulnerabilities.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "chokidar": "^3.6.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mysql2": "^3.9.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
