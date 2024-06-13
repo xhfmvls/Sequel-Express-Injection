@@ -1,4 +1,4 @@
-# PathGuard
+# Sequel Express Injection
 
 Secure Programming Challenge Against SQL Injection Threat with Express.js
 
@@ -45,7 +45,7 @@ Submissions for this challenge must comprise solely of the amended code, confine
    - Execute the queries in the **query.sql** file to create the necessary tables and populate them with initial data.
 
 ### 4. Configure Environment Variables
-   - Uptdate the .env file in the project directory by filling the variables:
+   - Update the .env file in the project directory by filling the variables:
      ```
      DB_HOST=your_db_host
      DB_HOST=your_db_host
