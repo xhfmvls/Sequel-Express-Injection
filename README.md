@@ -58,7 +58,7 @@ Submissions for this challenge must comprise solely of the amended code, confine
 ### 5. Run the Application
    - Run the Express.js application using the following command:
      ```
-     node index.js
+     node app.js
      ```
    - The application will start running locally on `http://localhost:8080`.
 
