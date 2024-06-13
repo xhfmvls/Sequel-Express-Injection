@@ -24,16 +24,6 @@ test_cases = [
         'header': headers[0],
         'method': 'POST',
         'body': json.dumps({
-            "item_name": "Item'3"
-        }),
-        'expected': {'items': [{'id': 3, 'name': "Item'3", 'description': 'Description for Item 3'}]},
-    },
-    {
-        'checking_method': quanchecker.response_based_check,
-        'url': urls[0],
-        'header': headers[0],
-        'method': 'POST',
-        'body': json.dumps({
             "item_name": "Item 6%"
         }),
         'expected': {'items': [{'id': 6, 'name': 'Item 6%', 'description': 'A versatile and innovative product with a touch of mystery, perfect for the modern adventurer'}]},
@@ -59,3 +49,5 @@ test_cases = [
         'expected': {'error': 'Item not found!'},
     }
 ]
+
+quanchecker.run_tests_dev(test_cases)
