@@ -80,7 +80,7 @@ Submissions for this challenge must comprise solely of the amended code, confine
 #### Input Format:
 - **Description**: The input consists of a string representing an item name.
 - **Format**: 
-  - The string has a length between 10 and 50 characters, inclusive.
+  - The string has a length between 1 and 50 characters, inclusive.
 
 #### Output Format:
 - **Description**: The expected output can be one of the following:
